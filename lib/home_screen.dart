@@ -58,12 +58,12 @@ class _HomeScreenState extends State<HomeScreen> {
           'abc2': 'xyz2',
           'abc3': 'xyz3',
         });
-
-
-        print(box.get('name'));
-        print(box.get('age'));
-        print(box.get('list'));
-        print(box.get('list')['abc1']);
+        //
+        //
+        // print(box.get('name'));
+        // print(box.get('age'));
+        // print(box.get('list'));
+        // print(box.get('list')['abc1']);
 
       },
       child: Icon(Icons.add, color: Colors.blue),
